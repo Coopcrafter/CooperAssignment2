@@ -24,12 +24,12 @@ var Game = mongoose.model('game')
 
 //basic code for saving an entry
 //model of data
-/*var Game = mongoose.model('Game', {nameofGame:String})
+var Game = mongoose.model('Game', {nameofGame:String})
 
 var game = new Game({nameofGame:"Skyrim"})
 game.save().then(function(){
     console.log("Game Saved")
-})*/
+})
 
 
 //Setup the post route to save the data
